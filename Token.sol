@@ -97,9 +97,9 @@ contract EventDefinitions {
 
 contract Token is Finalizable, TokenReceivable, SafeMath, EventDefinitions, Pausable {
 	// Set these appropriately before you deploy
-	string constant public name = "FixMeBeforeDeploying";
+	string constant public name = "RightsLedger Token";
 	uint8 constant public decimals = 8;
-	string constant public symbol = "FIXME";
+	string constant public symbol = "RTK";
 	Controller public controller;
 	string public motd;
 	event Motd(string message);
